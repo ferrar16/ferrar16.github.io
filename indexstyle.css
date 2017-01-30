@@ -1,0 +1,88 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+#fathead{
+	font-family: 'VT323', monospace;
+	text-align: center;
+	font-size: 100px;
+}
+
+#link1{
+	position: relative;
+	bottom:-400px;
+	font-family: 'VT323', monospace;
+	font-size: 45px;
+}
+
+.hcontent1{
+	display: none;
+	text-align: center;
+}
+
+.hcontent2{
+	display: none;
+	text-align: center;
+}
+
+.hcontent3{
+	display: none;
+	text-align: center;
+}
+
+.hovers{
+	text-align: center;
+}
+
+
+
+#one{
+	text-align: center;
+	width:1000px;
+	height: 20px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#one:hover .hcontent1{
+	display:block;
+}
+
+
+#two:hover .hcontent2{
+	display:block;
+}
+
+#two{
+	text-align: center;
+	width:1000px;
+	height: 20px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#three:hover .hcontent3{
+	display:block;
+}
+
+#three{
+	text-align: center;
+	width:1000px;
+	height: 20px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#four{
+	text-align: center;
+	position:relative;
+	bottom: -225px;
+	width: 100%
+}
+
+
+

@@ -1,23 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
 	<title></title>
+		<link rel="stylesheet" type="text/css" href="indexstyle.css">
 </head>
 <body>
 
-<h1>GPS</h1>
-	<li>US Military maintains via 24 orbiting satellites</li>
-	<li>4 satellites always have direct view of your reciever</li>
-	<li>Receiver communicates with 3 satellites to calculate location: Trilateration</li>
-	<li>Atomic Clocks in order to calculate location of satellites</li>
+<div id="fathead">
+	<div>THE BASE IDEA OF GPS</div>
+</div>
 
-<h1>AGPS</h1>
-	<li>Cellphone and Phone company act as reciever</li>
-	<li>Cell tower acts as satellite</li>
-	<li>Similar process as GPS, satellites are less directly involved, more reliant on corporate entity</li>
-	<li>Cellular GPS usage is heavy on bandwidth and could be charged, but at the moment is not</li>
 
-<img src="Graphics/gps_graphic1.jpg">
+	<div id="one">
+			<div class="hovers">
+	<span>Satellites</span>
+			</div>
+		<div class="hcontent1">
+		<img src="gps_graphic1.jpg" style="width:500px; height:550px;">
+		<p>GPS (Global Positioning System) operates via 24 satellites that orbit around the Earth. These satellites gather information on their position relative to earth as well as relative time in order to provide an accurate location for the user.</p>
+		</div>
+	</div>
 
+	<div id="two">
+			<div class="hovers">
+	<div>Reciever</div>
+			</div>
+		<div class="hcontent2">
+		<img src="gps_graphic1.jpg" style="width:500px; height:550px;">
+		<p>The reciever is a device that recieves information from satellites in order to calculate your position on Earth. At any time of day and location on the planet, the reciever will consistently have a line of visibility with four satellites. </p>
+		</div>	
+	</div>
+
+	<div id="three">
+			<div class="hovers">
+	<div>Trilateration</div>
+			</div>
+		<div class="hcontent3">
+		<img src="gps_graphic1.jpg" style="width:500px; height:550px;">
+		<p>Information from three of the four satellites is read by the reciever and is used calculates your location. The information used is relative location and time the satellites in relation to the reciever. This process is known as trilateration.</p>
+		</div>
+	</div>
+
+	<div id="four">
+			<div class="hovers">
+	<span id="link1">
+	<div><a href="agps.html"></a>AGPS</div>
+	</span>
+			</div>
+	</div>
+
+</div>
 </body>
 </html>
