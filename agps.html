@@ -2,47 +2,20 @@
 <html>
 <head>
 	<title></title>
-
-<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="agpsstyle.css">
 </head>
+<link rel="stylesheet" type="text/css" href="agps.css">
 <body>
 
-<div id="fathead">
-	<div>THE BASE IDEA OF AGPS</div>
+<p>Assisted GPS (AGPS) works similarly to GPS in that it is able to find your location, but the process for how it does so is different. Rather than directly communicating with GPS satellites, AGPS works by sourcing location data from from two sources. To communicte with satellites, an AGPS device doesn't recieve information from satellites directly, but rather indirectly recieves information from a databases that communicates for it. As for positioning, rather than using <a href="trilateration.html">Trilateration</a>, the system used by GPS, it calculates position based on the distance it is from signal providing structures that are within close proximity. In the case of your cellphone, an AGPS device, it gains satellite information from your cell provider and calculates a position using the signal provided by the numerous celltowers in its proximity.</p>
+
+<div class="graphics">
+<a href="celltower1.html"><img src="celltower1.jpg" height="350px" width="70"></a>
+<a href="celltower2.html"><img src="celltower2.jpg" height="350px" width="70"></a>
+<a href="celltower3.html"><img src="celltower3.jpg" height="350px" width="200"></a>
+<a href="celltower4.html"><img src="celltower4.jpg" height="350px" width="90"></a>
 </div>
 
-	<div id="one">
-			<div class="hovers">
-	<div>Substitute Reciever</div>
-			</div>
-		<div class="hcontent1">
-		<p>AGPS (Assisted GPS) functions similarly to GPS, but through a different process. Rather than a recieve information directly from GPS satellites, an AGPS enabled device recieves satellite information from a database. In the case of your cellphone, an AGPS enabled device, it would gather satellite information from the network provider.</p>
-		</div>
-	</div>
-
-	<div id="two">
-			<div class="hovers">
-	<div>Psuedo Satellite</div>
-			</div>
-		<div class="hcontent2">
-		<p>As far as determining location goes with AGPS, recieving satellite informaion via a database is not enough. The information provided through those means is enough to give you an accurate time, but as the satellites nor database are providing you with the means to trilaterate your position, another process and database is needed. Again, with your phone as an example, cell towers provide your phone's AGPS with the necessary location data and act as satellites providing the relative distance phone is from the cell tower. Trilatertion on this scale though is heavy on cell bandwidth as the calculations for this are quite complex.</p>
-		</div>
-	</div>
-
-	<div id="three">
-		<div class="hovers">
-	<span id="link1">
-	<a href="providedservices.html">PROVIDED SERVICES</a>
-	</span>
-		</div>
-
-		<div class="hovers">
-	<span id="link2">
-	<a href="index.html">BACK</a>
-	</span>
-		</div>
-	</div>
+<a href="index.html">BACK</a>
 
 </body>
 </html>

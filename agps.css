@@ -1,0 +1,11 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+.graphics{
+	margin-left: 200px;
+	margin-right: 200px;
+	display: flex;
+	justify-content: space-between;
+}
