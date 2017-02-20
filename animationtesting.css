@@ -1,0 +1,74 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+.test{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
+
+#one{
+	animation: fadein 2s both infinite;
+}
+
+#two{
+	animation: fadein 2s 1s both infinite;
+}
+
+#three{
+	animation: fadein 2s 2s both infinite;
+}
+
+#four{
+	animation: fadein 2s 3s both infinite;
+}
+
+#five{
+	animation: fadein 2s 4s both infinite;
+}
+
+#six{
+	animation: fadein 2s 5s both infinite;
+}
+
+@-webkit-keyframes fadein{
+
+	0%{
+		opacity: 0;
+	}
+
+	99%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+
+}
+
+.pulsetest{
+	animation: pulse 3s backwards infinite;
+	position: absolute;
+	top: 75%:;
+	left: 75%;
+	/*text-align: center*/
+}
+
+@-webkit-keyframes pulse{
+	0%{
+		opacity: 0;
+		transform: scale(.1);
+	}
+
+	50%{
+		opacity: 1;
+	}
+
+	100%{
+		opacity: 0;
+		transform: scale(1); 
+	}
+}
+
