@@ -3,9 +3,99 @@ body{
 	color: white;
 }
 
+.exit{
+	font-family: Archivo Black;
+	text-align: center;
+	top: 90%
+	margin-top: 50px;
+	animation: fadein 2s forwards;
+}
+
+.trilateration{
+	font-family: Archivo Black;
+	text-align: center;
+	animation: fadein 2s forwards;
+}
+
+.header1{
+	left: 50%;
+	margin-left: -35%;
+	position: absolute;
+	margin-top: -100px;
+	font-family: Archivo Black;
+	font-size: 50pt;
+	opacity:0;
+}
+
+.header2{
+	left: 50%;
+	margin-left: -35%;
+	position: absolute;
+	margin-top: -100px;
+	text-align: center;
+	font-family: Archivo Black;
+	font-size: 50pt;
+	opacity:0;
+}
+
+.header3{
+	left: 50%;
+	margin-left: -35%;
+	position: absolute;
+	margin-top: -100px;
+	text-align: center;
+	font-family: Archivo Black;
+	font-size: 50pt;
+	opacity:0;
+}
+
+.header4{
+	left: 50%;
+	margin-left: -35%;
+	position: absolute;
+	margin-top: -100px;
+	text-align: center;
+	font-family: Archivo Black;
+	font-size: 50pt;
+	opacity:0;
+}
+
+
 .graphics{
+	animation: fadein 2s forwards;
+	height: 500px;
 	margin-left: 200px;
 	margin-right: 200px;
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.hoversat{
+	animation: fadein 1s forwards;
+}
+
+.leavesat{
+	animation: fadeout 1s forwards;
+}
+
+@-webkit-keyframes fadein{
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeout{
+
+	0%{
+		opacity: 1;
+	}
+
+	100%{
+		opacity: 0;
+	}
 }

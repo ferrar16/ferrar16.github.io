@@ -3,19 +3,59 @@
 <head>
 	<title></title>
 </head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="agps-script.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="agps.css">
 <body>
 
-<p>Assisted GPS (AGPS) works similarly to GPS in that it is able to find your location, but the process for how it does so is different. Rather than directly communicating with GPS satellites, AGPS works by sourcing location data from from two sources. To communicte with satellites, an AGPS device doesn't recieve information from satellites directly, but rather indirectly recieves information from a databases that communicates for it. As for positioning, rather than using <a href="trilateration.html">Trilateration</a>, the system used by GPS, it calculates position based on the distance it is from signal providing structures that are within close proximity. In the case of your cellphone, an AGPS device, it gains satellite information from your cell provider and calculates a position using the signal provided by the numerous celltowers in its proximity.</p>
+<!-- <div class="info">
+<p>Assisted GPS (AGPS) works similarly to GPS in that it is able to find your location, but the process for how it does so is different. Rather than directly communicating with GPS satellites, AGPS works by sourcing location data from from two sources. To communicte with satellites, an AGPS device doesn't recieve information from satellites directly, but rather indirectly recieves information from a databases that communicates for it. As for positioning, rather than using Tilateration, the system used by GPS, it calculates position based on the distance it is from signal providing structures that are within close proximity. In the case of your cellphone, an AGPS device, it gains satellite information from your cell provider and calculates a position using the signal provided by the numerous celltowers in its proximity.</p>
+</div> -->
 
-<div class="graphics">
-<a href="celltower1.html"><img src="celltower1.jpg" height="350px" width="70"></a>
-<a href="celltower2.html"><img src="celltower2.jpg" height="350px" width="70"></a>
-<a href="celltower3.html"><img src="celltower3.jpg" height="350px" width="200"></a>
-<a href="celltower4.html"><img src="celltower4.jpg" height="350px" width="90"></a>
+<div class="header1">
+<h1>MONOPOLE</h1>
 </div>
 
+<div class="header2">
+<h1>LATTICE</h1>
+</div>
+
+<div class="header3">
+<h1>GUYED</h1>
+</div>
+
+<div class="header4">
+<h1>CONCEALED</h1>
+</div>
+
+<div class="graphics">
+
+<div id="cell1">
+<a href="celltower1.html"><img src="celltower1.jpg" height="300px" width="60px"></a>
+</div>
+
+<div id="cell2">
+<a href="celltower2.html"><img src="celltower2.jpg" height="300px" width="60px"></a>
+</div>
+
+<div id="cell3">
+<a href="celltower3.html"><img src="celltower3.jpg" height="300px" width="171.5px"></a>
+</div>
+
+<div id="cell4">
+<a href="celltower4.html"><img src="celltower4.jpg" height="300px" width="77.1px"></a>
+</div>
+
+</div>
+
+<div class="exit">
 <a href="index.html">BACK</a>
+</div>
+
+<div class="trilateration">
+<a href="trilateration.html">Trilateration</a>
+</div>
 
 </body>
 </html>

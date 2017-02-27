@@ -2,3 +2,33 @@ body{
 	background-color: black;
 	color: white;
 }
+
+.wholepage{
+	animation: fadein 2s;
+}
+
+.header1{
+	text-align: right;
+	font-family: Archivo Black;
+	font-size: 50pt;
+	opacity:1;
+}
+
+.info{
+	font-family: Inconsolata;
+	margin-left: 60%;
+}
+
+.exit{
+	font-family: Archivo Black;
+}
+
+@-webkit-keyframes fadein{
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
